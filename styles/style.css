@@ -22,7 +22,32 @@ hr {
   border: 0.5px solid #d1d1d1;
   margin-bottom: 27px;
 }
-
+/* Headers Sections */
+.header-section {
+  height: 50px;
+  background-color: #562eff;
+  display: flex;
+  justify-content: center;
+}
+.navigation-bar {
+  display: flex;
+  width: 930px;
+  justify-content: space-between;
+}
+.navigation-bar .site-icon img {
+  width: 50px;
+}
+.menu-bar {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.profile-icon {
+  height: 41px;
+}
+.menu {
+  padding-left: 50px;
+}
 /* Top Players Style */
 .top-players {
   margin-bottom: 30px;
@@ -117,6 +142,17 @@ hr {
 /* Mobile Devices */
 
 @media only screen and (max-width: 688px) {
+  .header-section {
+    width: 100%;
+    margin: 0;
+  }
+  .menu-bar {
+    padding-left: 29px;
+  }
+  .menu {
+    padding-left: 14px;
+  }
+
   .container {
     width: 100%;
   }
